@@ -1,6 +1,37 @@
-* {
-    /* outline: 1px solid teal; */
+header a {
+   
+    color: white;
+    text-decoration: none;
 }
+
+header .top-bar{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+display: flex;
+justify-content: center;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    
+    list-style: none;
+}
+.top-bar a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-image: url("/assets/images/hero.png")
+}
+    
 
 body {
     font-family: 'Lato', sans-serif;
